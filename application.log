@@ -1,0 +1,30 @@
+2022-2022-05 12:34 [INFO][restartedMain][c.e.a.AddressBookSpringApplication:55] Starting AddressBookSpringApplication using Java 17.0.2 on Moin with PID 4556 (C:\Users\Moinuddin\Documents\Assignments\AddressBookSpring\target\classes started by Moinuddin in C:\Users\Moinuddin\Documents\Assignments\AddressBookSpring)
+2022-2022-05 12:34 [INFO][restartedMain][c.e.a.AddressBookSpringApplication:640] The following 1 profile is active: "test"
+2022-2022-05 12:34 [INFO][restartedMain][o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-2022-05 12:34 [INFO][restartedMain][o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-2022-05 12:34 [INFO][restartedMain][o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-2022-05 12:34 [INFO][restartedMain][o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 133 ms. Found 1 JPA repository interfaces.
+2022-2022-05 12:34 [INFO][restartedMain][o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2022-2022-05 12:34 [INFO][restartedMain][o.a.c.c.StandardService:173] Starting service [Tomcat]
+2022-2022-05 12:34 [INFO][restartedMain][o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-2022-05 12:34 [INFO][restartedMain][o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+2022-2022-05 12:34 [INFO][restartedMain][o.s.b.w.s.c.ServletWebServerApplicationContext:292] Root WebApplicationContext: initialization completed in 2652 ms
+2022-2022-05 12:34 [INFO][restartedMain][o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-2022-05 12:34 [INFO][restartedMain][o.h.Version:44] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-2022-05 12:34 [INFO][restartedMain][o.h.a.c.Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-2022-05 12:34 [INFO][restartedMain][c.z.h.HikariDataSource:110] HikariPool-1 - Starting...
+2022-2022-05 12:34 [INFO][restartedMain][c.z.h.HikariDataSource:123] HikariPool-1 - Start completed.
+2022-2022-05 12:34 [INFO][restartedMain][o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-2022-05 12:34 [INFO][restartedMain][o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-2022-05 12:34 [INFO][restartedMain][o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-2022-05 12:34 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-05 12:34 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-05 12:34 [INFO][restartedMain][o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+2022-2022-05 12:34 [INFO][restartedMain][o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-2022-05 12:34 [INFO][restartedMain][c.e.a.AddressBookSpringApplication:61] Started AddressBookSpringApplication in 8.056 seconds (JVM running for 9.267)
+2022-2022-05 12:34 [INFO][restartedMain][c.e.a.AddressBookSpringApplication:13] Application Loaded Successfully!!
+2022-2022-05 12:34 [INFO][http-nio-8080-exec-2][o.a.c.c.C.[.[.[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-2022-05 12:34 [INFO][http-nio-8080-exec-2][o.s.w.s.DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
+2022-2022-05 12:34 [INFO][http-nio-8080-exec-2][o.s.w.s.DispatcherServlet:547] Completed initialization in 1 ms
+2022-2022-05 12:34 [WARN][http-nio-8080-exec-2][o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:208] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.example.addressbookspring.dto.ResponseDTO> com.example.addressbookspring.controller.AddressBookController.createEmployees(com.example.addressbookspring.dto.AddressBookDTO): [Field error in object 'addressBookDTO' on field 'fullName': rejected value [Pa]; codes [Pattern.addressBookDTO.fullName,Pattern.fullName,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressBookDTO.fullName,fullName]; arguments []; default message [fullName],[Ljavax.validation.constraints.Pattern$Flag;@6ef5c719,^[A-Z][a-zA-Z\s]{2,}$]; default message [Contact name Invalid: It should have at least 3 characters starting with Capital letter.]] ]
+2022-2022-05 12:34 [WARN][http-nio-8080-exec-4][o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:208] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.example.addressbookspring.dto.ResponseDTO> com.example.addressbookspring.controller.AddressBookController.createEmployees(com.example.addressbookspring.dto.AddressBookDTO): [Field error in object 'addressBookDTO' on field 'email': rejected value [mamoinuddingmail.com]; codes [Email.addressBookDTO.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressBookDTO.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@6c4f8558,.*]; default message [Please enter a valid email.]] ]

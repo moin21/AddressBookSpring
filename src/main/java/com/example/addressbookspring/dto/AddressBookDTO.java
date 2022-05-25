@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.validation.constraints.Email;
 import javax.validation.constraints.Pattern;
 
 @Data
@@ -12,39 +13,13 @@ import javax.validation.constraints.Pattern;
 public class AddressBookDTO {
     @Pattern(regexp = "^[A-Z][a-zA-Z\\s]{2,}$", message = "Contact name Invalid: It should have at least 3 characters starting with Capital letter.")
     private String fullName;
+    @Pattern(regexp = "^[0-9]{10}$", message = "Phone number should be a 10 digit number.")
     private String mobileNumber;
+    @Email(message = "Please enter a valid email.")
     private String email;
     private String city;
 
     public String getFullName() {
         return fullName;
-    }
-
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
-    }
-
-    public String getMobileNumber() {
-        return mobileNumber;
-    }
-
-    public void setMobileNumber(String mobileNumber) {
-        this.mobileNumber = mobileNumber;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
     }
 }
