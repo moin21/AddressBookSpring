@@ -10,7 +10,7 @@ import javax.validation.constraints.Pattern;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AddressBookDTO {
-    
+    @Pattern(regexp = "^[A-Z][a-zA-Z\\s]{2,}$", message = "Contact name Invalid: It should have at least 3 characters starting with Capital letter.")
     private String fullName;
     private String mobileNumber;
     private String email;
